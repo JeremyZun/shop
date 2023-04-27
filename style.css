@@ -1,0 +1,212 @@
+/* 背景色 */
+body {
+    background-color: #f7f7f7;
+}
+  
+  /* Navbar樣式 */
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+}
+  
+  .navbar-nav {
+    margin-left: auto;
+    color: #fff;
+}
+  
+  .nav-item {
+    padding: 0 10px;
+}
+  
+  /* 購物車按鈕樣式 */
+  .cart-btn {
+    color: #ffffff;
+    background-color: #008cba;
+    border-color: #008cba;
+}
+  
+  .cart-btn:hover {
+    color: #ffffff;
+    background-color: #0077b3;
+    border-color: #0077b3;
+}
+  
+  /* 卡片樣式 */
+  .card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+  
+  .card:hover {
+    transform: translateY(-5px);
+}
+  
+  .card-img-top {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+  
+  .card-text {
+    font-size: 1rem;
+}
+  
+  /* 按鈕樣式 */
+  .btn-primary {
+    color: #ffffff;
+    background-color: #008cba;
+    border-color: #008cba;
+}
+  
+  .btn-primary:hover {
+    color: #ffffff;
+    background-color: #0077b3;
+    border-color: #0077b3;
+}
+
+.carousel-item {
+  height: 500px;
+  background-color: #F5F5F5;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+  text-shadow: none;
+}
+
+.carousel-caption h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: '';
+  display: inline-block;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.carousel-control-prev-icon {
+  margin-left: -30px;
+}
+
+.carousel-control-next-icon {
+  margin-right: -30px;
+}
+
+.carousel-indicators button {
+  background-color: #333;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.carousel-indicators .active {
+  background-color: #007BFF;
+  width: 16px;
+  height: 16px;
+  border: none;
+  margin: 0 4px;
+}
+
+/* Top輪播 */
+
+.carousel-item {
+  height: 500px;
+  background-color: #3e3e3e;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+  text-shadow: none;
+}
+
+.carousel-caption h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: '';
+  display: inline-block;
+  border: solid rgb(88, 88, 88);
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.carousel-indicators .active {
+  background-color: #007BFF;
+  width: 16px;
+  height: 16px;
+  border: none;
+  margin: 0 4px;
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators button {
+  width: 50px;
+  height: 5px;
+  border-radius: 0;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  opacity: 1;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.carousel-indicators button:hover {
+  opacity: 0.75;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+  opacity: 1;
+}

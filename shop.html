@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>店商網頁</title>
+    <!-- 響應式網站 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+	<!-- 引入Bootstrap CSS檔案 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- 引入jQuery和Bootstrap的JavaScript檔案 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+    <!-- 引入 Bootstrap 的 JavaScript -->    
+    <script src="https://kit.fontawesome.com/6b0930d15d.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style=" background-color: rgba(255, 255, 255, 0.9);">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">紅花홍화</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+              <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="./cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="badge badge-pill badge-danger">0</span>
+                    </a>
+                </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static.vecteezy.com/system/resources/previews/004/299/830/original/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg" class="d-block w-100" alt="1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> 韓國服飾專賣 </h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://file.moyublog.com/d/file/2022-04-09/d796f914a7ddf92ab31a832ff57f29dd.jpg" class="d-block w-100" alt="2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://pic.ntimg.cn/file/20210412/3170138_224104952100_2.jpg" class="d-block w-100" alt="3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-4 mb-4">
+                <div class="card">
+                    <img src="./clothes_img/1.jpg" class="card-img-top" alt="w">
+                    <div class="card-body">
+                        <h5 class="card-title">W1</h5>
+                        <p class="card-text"></p>
+                        <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-1" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/2.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W2</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-2" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/3.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W3</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-3" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/4.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W4</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-4" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/5.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W5</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-5" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/6.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W6</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-6" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/7.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W7</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-7" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/8.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W8</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-8" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img src="./clothes_img/9.jpg" class="card-img-top" alt="w">
+                        <div class="card-body">
+                            <h5 class="card-title">W9</h5>
+                            <p class="card-text"></p>
+                            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-9" class="btn btn-primary">點擊查看完整圖片(手機用戶)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 框1 -->
+            <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./clothes_img/1.jpg" class="card-img-top" alt="w">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- 框2 -->
+            <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./clothes_img/2.jpg" class="card-img-top" alt="w">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- 框3 -->
+            <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./clothes_img/3.jpg" class="card-img-top" alt="w">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- 添加更多行，顯示更多物件 -->
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const carouselInstance = new bootstrap.Carousel(carousel, {
+            interval: 3500, // 設定每張圖片停留的時間 (單位: 毫秒)
+            keyboard: false, // 是否支援使用者利用鍵盤操作輪播 (true: 是, false: 否)
+            pause: 'hover' // 滑鼠移入時是否暫停輪播 (false: 不暫停, true: 移入暫停, 'false': 不暫停, 'hover': 移入暫停)
+        });
+    </script>    
+</body>
+</html>
